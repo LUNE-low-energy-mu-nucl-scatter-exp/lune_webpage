@@ -238,7 +238,7 @@ figure.fig.card figcaption { padding: 10px 6px 0; }
   text-align: center; width: 200px;
   border: 1px solid rgba(30,91,214,.08);
 }
-.logo-card img { max-height: 80px; margin-bottom: 12px; }
+.logo-card img { max-height: 80px; max-width: 100%; margin-bottom: 12px; }
 .logo-card p { font-size: .85rem; color: var(--ink-soft); margin-bottom: 10px; }
 .logo-card a {
   display: inline-block; padding: 6px 18px;
@@ -270,7 +270,7 @@ figure.fig.card figcaption { padding: 10px 6px 0; }
   padding: 34px 0; font-size: .9rem;
 }
 .footer-wrap { display: flex; align-items: center; justify-content: space-between; gap: 18px; flex-wrap: wrap; }
-.footer-logo { height: 30px; }
+.footer-logo { height: 30px; max-width: 100%; }
 
 @media (max-width: 900px) {
   .phase-grid { grid-template-columns: 1fr; }
