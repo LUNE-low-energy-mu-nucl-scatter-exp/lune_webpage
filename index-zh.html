@@ -1,0 +1,346 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>LUNE — 基于 HIAF 的低能缪子-核子散射实验</title>
+<meta name="description" content="LUNE：基于 HIAF 缪子源的精确缪子散射实验，研究质子电荷半径之谜、核子电磁结构，并探索超越标准模型的新物理。">
+<link rel="icon" type="image/svg+xml" href="assets/lune-icon.svg">
+<link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+<header class="site-header" id="top">
+  <div class="container nav-wrap">
+    <a class="brand" href="#top">
+      <img src="assets/lune-icon-512.png" alt="LUNE logo" class="brand-icon">
+      <span class="brand-name">LUNE</span>
+    </a>
+    <nav class="nav">
+      <a href="#principle" data-panel="principle">原理</a>
+      <a href="#physics" data-panel="physics">物理</a>
+      <a href="#detector" data-panel="detector">探测器</a>
+      <a href="#projection" data-panel="projection">展望</a>
+      <a href="#collab" data-panel="collab">合作组</a>
+      <a href="#logo" data-panel="logo">Logo</a>
+      <a href="index.html" class="lang-btn" hreflang="en" lang="en">English</a>
+    </nav>
+  </div>
+</header>
+
+<!-- ================= 首屏 ================= -->
+<section class="hero">
+  <div class="hero-glow" aria-hidden="true"></div>
+  <div class="container hero-inner">
+    <img src="assets/lune-stacked-800.png" alt="LUNE" class="hero-logo">
+    <p class="hero-sub">Low-energy Muon-Nucleon scattering Experiment</p>
+    <h1 class="hero-title">高亮度前沿的精确缪子散射实验</h1>
+    <p class="hero-desc">
+      依托 HIAF 高强度缪子束流（0.5–7.5 GeV/c），LUNE 将利用 μ<sup>+</sup> 与 μ<sup>−</sup>
+      双电荷态束流开展精确散射测量，衔接低能电子装置与未来高能轻子-离子对撞机之间的能区空白。
+      实验将测定质子（氘核）电荷半径、测量核子电磁形状因子，并研究量子电动力学与强相互作用的动力学。
+    </p>
+    <div class="hero-stats">
+      <div class="stat"><span class="stat-num">0.5–7.5</span><span class="stat-unit">GeV/c 束流动量</span></div>
+      <div class="stat"><span class="stat-num">~10<sup>6</sup></span><span class="stat-unit">μ/s 束流强度</span></div>
+      <div class="stat"><span class="stat-num">1.0%</span><span class="stat-unit">质子半径测量精度</span></div>
+      <div class="stat"><span class="stat-num">μ<sup>+</sup>/μ<sup>−</sup></span><span class="stat-unit">双电荷态束流</span></div>
+    </div>
+  </div>
+</section>
+
+<!-- ================= 原理 ================= -->
+<section class="section" id="principle" data-panel-section hidden>
+  <div class="container">
+    <p class="kicker">Principle</p>
+    <h2>测量原理</h2>
+    <p class="lead">
+      缪子是质量约为电子 207 倍的点状轻子。缪子-质子弹性散射的角分布由质子电磁形状因子决定，
+      而形状因子编码了质子（氘核）电荷的空间分布。
+    </p>
+    <div class="grid grid-3">
+      <article class="card">
+        <div class="card-num">01</div>
+        <h3>弹性散射与形状因子</h3>
+        <p>在低动量转移（低 Q<sup>2</sup>）区间，弹性散射截面随 Q<sup>2</sup> 的变化斜率决定质子电荷半径。
+        截面由电形状因子 G<sub>E</sub>(Q<sup>2</sup>) 与磁形状因子 G<sub>M</sub>(Q<sup>2</sup>) 共同决定；
+        通过小角度精确测量并外推至 Q<sup>2</sup> → 0 即可得到半径。</p>
+      </article>
+      <article class="card">
+        <div class="card-num">02</div>
+        <h3>为何选择缪子？</h3>
+        <p>缪子质量大、穿透能力强，能够探测核的内部。μ<sup>+</sup> 与 μ<sup>−</sup>
+        散射的系统对比可用于独立研究双光子交换（TPE）效应——电子散射中重要的量子电动力学修正。</p>
+      </article>
+      <article class="card">
+        <div class="card-num">03</div>
+        <h3>分阶段实验进程</h3>
+        <p><b>Phase I</b>：采用二极磁体谱仪开展低 Q<sup>2</sup> 弹性 μ–p 散射测量，
+        以 1.0% 精度测定质子电荷半径。<b>Phase II</b>：升级为 2 T 螺线管谱仪，
+        开展 DIS、SIDIS、DVCS 等核子三维结构研究以及超越标准模型的物理搜索。</p>
+      </article>
+    </div>
+  </div>
+</section>
+
+<!-- ================= 物理 ================= -->
+<section class="section section-alt" id="physics" data-panel-section hidden>
+  <div class="container">
+    <p class="kicker">Physics</p>
+    <h2>物理目标</h2>
+    <p class="lead">从质子半径之谜到核子的力学结构，LUNE 实验计划覆盖核物理与粒子物理中的多个基本问题。</p>
+    <div class="grid grid-2">
+      <article class="card card-feature">
+        <h3>质子电荷半径之谜</h3>
+        <p>电子散射、电子能谱以及缪子氢原子谱学给出的质子电荷半径数值之间存在约 4% 的分歧。
+        LUNE 将以缪子探针提供独立测量结果，为解决这一分歧提供关键输入。</p>
+      </article>
+      <article class="card card-feature">
+        <h3>双光子交换与 QED 检验</h3>
+        <p>通过 μ<sup>+</sup> 与 μ<sup>−</sup> 束流的系统性对比，可对双光子交换效应进行受控研究，
+        并对量子电动力学及辐射修正理论框架进行严格检验。</p>
+      </article>
+      <article class="card card-feature">
+        <h3>核子三维结构</h3>
+        <p>Phase II 的高统计量 DIS、SIDIS 与 DVCS 数据样本将用于研究横动量依赖分布（TMD）、
+        广义部分子分布（GPD）、引力形状因子，以及核子内夸克的轨道动力学。</p>
+      </article>
+      <article class="card card-feature">
+        <h3>核结构与核介质效应</h3>
+        <p>轻核电荷半径的精确测定、库仑畸变修正、核介质修改效应（EMC 效应），
+        以及远期的短程关联（SRC）研究。</p>
+      </article>
+      <article class="card card-feature card-wide">
+        <h3>超越标准模型的物理搜索</h3>
+        <p>高强度缪子束为新物理搜索提供了独特窗口，包括带电轻子味破坏过程、
+        与缪子 g−2 相关的强子贡献，以及暗光子等轻新粒子的精确搜索。</p>
+      </article>
+    </div>
+  </div>
+</section>
+
+<!-- ================= 探测器 ================= -->
+<section class="section" id="detector" data-panel-section hidden>
+  <div class="container">
+    <p class="kicker">Detector</p>
+    <h2>探测器系统</h2>
+    <p class="lead">
+      HIAF-HIRIBL 缪子束线（长 192 m，动量接受度 ±2%）为分阶段建设的探测器系统提供束流。
+      Phase I 针对低 Q<sup>2</sup> 弹性散射的精确测量优化；Phase II 通过超导螺线管内的筒部探测器
+      扩展接受度与粒子鉴别能力。完整技术方案见<a href="LUNE.pdf" download>白皮书</a>（第 3 章）。
+    </p>
+
+    <div class="beam-banner">
+      <div><b><a href="https://hiaf.imp.cas.cn/" target="_blank" rel="noopener">HIAF</a> μ 束流</b> — 0.5–7.5 GeV/c · ~10<sup>6</sup> μ/s · 光斑 2–10 cm · 散度 10 mrad · 天然极化（研究中）</div>
+    </div>
+
+    <!-- Phase I -->
+    <div class="phase-block">
+      <div class="phase-head">
+        <h3>Phase I — 二极磁体谱仪</h3>
+        <span class="phase-tag">质子电荷半径 · 低 Q<sup>2</sup> 弹性散射</span>
+      </div>
+      <div class="phase-grid">
+        <figure class="fig">
+          <img src="assets/figs/phase1-layout.png" alt="Phase-I LUNE 探测器布局" loading="lazy">
+          <figcaption>Phase-I 探测器布局：束流监测器、CH<sub>2</sub>/石墨靶、~0.5 T 二极磁场中的硅像素径迹系统及 Shashlyk 量能器（白皮书图 12）。</figcaption>
+        </figure>
+        <div class="phase-text">
+          <ul class="spec-list">
+            <li><b>靶系统：</b>5.0 mm CH<sub>2</sub> 靶，配合 2.24 mm 等效碳面密度的石墨靶用于本底扣除。</li>
+            <li><b>径迹系统：</b>MAPS 硅像素探测器（CCNU 研制的第四代 MIC6-v4 芯片），单层材料预算 &lt; 0.5% X<sub>0</sub>，像素 30 μm；动量分辨率 &lt; 2.0%（0.25–2 GeV/c），角分辨率 &lt; 0.8 mrad，效率 &gt; 97%。</li>
+            <li><b>磁体：</b>~0.5 T 常温二极磁体，场均匀性 &lt; ±5 × 10<sup>−3</sup>。</li>
+            <li><b>粒子鉴别：</b>μ/π 分辨效率 &gt; 90%（目标 &gt; 95%）；量能器能量分辨率 &lt; 8%/√E ⊕ C。</li>
+          </ul>
+        </div>
+      </div>
+    </div>
+
+    <!-- Phase II -->
+    <div class="phase-block">
+      <div class="phase-head">
+        <h3>Phase II — 螺线管谱仪</h3>
+        <span class="phase-tag">DIS · SIDIS · DVCS · 核结构</span>
+      </div>
+      <div class="phase-grid phase-grid-rev">
+        <figure class="fig">
+          <img src="assets/figs/phase2-layout.png" alt="Phase-II LUNE 探测器布局" loading="lazy">
+          <figcaption>Phase-II 探测器布局：2 T 超导螺线管内配置圆柱形漂移室、筒部量能器，并扩展前向接受度（白皮书图 13）。</figcaption>
+        </figure>
+        <div class="phase-text">
+          <ul class="spec-list">
+            <li><b>靶系统：</b>5 cm / 50 cm 液氢（LH<sub>2</sub>）靶，以最大化亮度。</li>
+            <li><b>螺线管：</b>2 T 超导磁体，长 150 cm，孔径 80 cm，径向厚度 20 cm。</li>
+            <li><b>漂移室：</b>12 层圆柱形丝层（半径 15–37.4 cm），Ar–CO<sub>2</sub>（70:30）气体，横向分辨率约 100–150 μm，与硅像素探测器构成混合径迹系统。</li>
+            <li><b>量能器与缪子鉴别：</b>扩展型 Shashlyk 电磁量能器与前向 RPC 缪子鉴别系统。</li>
+          </ul>
+        </div>
+      </div>
+    </div>
+
+    <!-- 子系统图集 -->
+    <h3 class="gallery-title">子系统图集</h3>
+    <div class="grid grid-3">
+      <figure class="fig card">
+        <img src="assets/figs/target-station.png" alt="模块化靶站概念设计" loading="lazy">
+        <figcaption><b>靶系统</b> — 模块化靶站概念设计（白皮书图 14）。</figcaption>
+      </figure>
+      <figure class="fig card">
+        <img src="assets/figs/solenoid.png" alt="Phase-II 超导螺线管" loading="lazy">
+        <figcaption><b>螺线管磁体</b> — Phase-II 超导螺线管概念图（白皮书图 16）。</figcaption>
+      </figure>
+      <figure class="fig card">
+        <img src="assets/figs/cdc.png" alt="Phase-II 圆柱形漂移室" loading="lazy">
+        <figcaption><b>中央漂移室</b> — Phase-II CDC 概念图，含轴向丝层与立体角丝层（白皮书图 20）。</figcaption>
+      </figure>
+    </div>
+  </div>
+</section>
+
+<!-- ================= Projection ================= -->
+<section class="section section-alt" id="projection" data-panel-section hidden>
+  <div class="container">
+    <p class="kicker">Projection</p>
+    <h2>预期性能与物理展望</h2>
+    <p class="lead">
+      以下结果基于 HIRIBL 束流模拟与生成器级估算（弹性散射采用 ESEPP，DIS/SIDIS 采用 DJANGOH，DVCS 采用 EpIC），
+      假设一个有效运行年度的取数时间。
+    </p>
+
+    <div class="table-wrap">
+      <table class="data-table">
+        <thead>
+          <tr><th>物理过程</th><th>束流</th><th>靶</th><th>截面 (pb)</th><th>年产额</th></tr>
+        </thead>
+        <tbody>
+          <tr><td>弹性散射（1°–10°）</td><td>1.0 GeV/c</td><td>CH<sub>2</sub> (5 mm)</td><td>8.32 × 10⁸</td><td class="num">1.06 × 10⁹</td></tr>
+          <tr><td>弹性散射（1°–10°）</td><td>1.5 GeV/c</td><td>CH<sub>2</sub> (5 mm)</td><td>3.75 × 10⁸</td><td class="num">0.47 × 10⁹</td></tr>
+          <tr><td>弹性散射（1°–10°）</td><td>2.0 GeV/c</td><td>CH<sub>2</sub> (5 mm)</td><td>2.09 × 10⁸</td><td class="num">0.27 × 10⁹</td></tr>
+          <tr><td>遍举 DIS</td><td>5.0 GeV/c</td><td>LH<sub>2</sub> (50 cm)</td><td>144 × 10³</td><td class="num">9.68 × 10⁶</td></tr>
+          <tr><td>SIDIS（K±）</td><td>5.0 GeV/c</td><td>LH<sub>2</sub> (50 cm)</td><td>8.8 × 10³</td><td class="num">5.91 × 10⁵</td></tr>
+          <tr><td>DVCS</td><td>5.0 GeV/c</td><td>LH<sub>2</sub> (50 cm)</td><td>0.99 × 10³</td><td class="num">6.65 × 10⁴</td></tr>
+        </tbody>
+      </table>
+    </div>
+
+    <!-- 误差预算 -->
+    <div class="grid grid-2 proj-grid">
+      <div class="table-wrap">
+        <table class="data-table">
+          <thead>
+            <tr><th colspan="2">质子电荷半径测量误差预算（Phase I）</th></tr>
+          </thead>
+          <tbody>
+            <tr><td>统计误差</td><td class="num">0.12%</td></tr>
+            <tr><td>角度刻度与分辨</td><td class="num">0.10%</td></tr>
+            <tr><td>QED 辐射修正</td><td class="num">0.16%</td></tr>
+            <tr><td>碳本底扣除</td><td class="num">0.50%</td></tr>
+            <tr><td>本底、分箱、接受度等</td><td class="num">0.50%</td></tr>
+            <tr><td><b>系统误差合计</b></td><td class="num"><b>0.75%</b></td></tr>
+            <tr><td><b>总预期误差</b></td><td class="num"><b>&lt; 1.0%</b></td></tr>
+          </tbody>
+        </table>
+        <p class="table-note">误差预算摘自白皮书表 20；数值为代表性估算，将随完整探测器模拟与数据驱动刻度进一步更新。</p>
+      </div>
+      <div class="projection-highlights">
+        <div class="highlight"><span class="hl-num">1.0%</span><p>弹性 μ–p 散射测量质子电荷半径的预期相对精度</p></div>
+        <div class="highlight"><span class="hl-num">~10⁷</span><p>年度遍举 DIS 事例数，用于核子结构研究</p></div>
+        <div class="highlight"><span class="hl-num">首次</span><p>在该能区利用缪子束探索 GPD（&gt; 6 × 10⁴ DVCS 事例/年）</p></div>
+      </div>
+    </div>
+
+    <!-- 预期结果图集 -->
+    <h3 class="gallery-title">预期结果图集</h3>
+    <div class="grid grid-2">
+      <figure class="fig card">
+        <img src="assets/figs/proj-radius.png" alt="质子电荷半径测量预期精度" loading="lazy">
+        <figcaption>LUNE 质子电荷半径测量预期精度与现有实验结果的对比（白皮书图 32）。</figcaption>
+      </figure>
+      <figure class="fig card">
+        <img src="assets/figs/proj-formfactors.png" alt="质子电磁形状因子预期精度" loading="lazy">
+        <figcaption>质子电磁形状因子代表性测量的预期精度（白皮书图 33）。</figcaption>
+      </figure>
+      <figure class="fig card">
+        <img src="assets/figs/proj-sidis.png" alt="SIDIS 测量预期统计精度" loading="lazy">
+        <figcaption>Phase II SIDIS 测量在 (x, z = E<sub>π</sub>/E<sub>h</sub>) 平面上的相对统计误差分布（白皮书图 35）。</figcaption>
+      </figure>
+      <figure class="fig card">
+        <img src="assets/figs/proj-dvcs.png" alt="DVCS 重建光子运动学分布" loading="lazy">
+        <figcaption>DVCS 事例：Phase-II 前向量能器重建的光子能量与极角分布（白皮书图 36）。</figcaption>
+      </figure>
+    </div>
+  </div>
+</section>
+
+<!-- ================= 合作组 ================= -->
+<section class="section" id="collab" data-panel-section hidden>
+  <div class="container collab-wrap">
+    <p class="kicker">Collaboration</p>
+    <h2>合作组</h2>
+    <p class="lead">
+      LUNE 合作组由来自以下单位的科研人员组成：
+    </p>
+    <ol class="collab-list">
+      <li>华中师范大学</li>
+      <li>中国科学院近代物理研究所</li>
+      <li>山东大学</li>
+      <li>合肥工业大学</li>
+      <li>河海大学</li>
+      <li>上海交通大学</li>
+      <li>中国科学技术大学</li>
+      <li>意大利国家核物理研究所帕多瓦分部（INFN Padova）</li>
+      <li>深圳技术大学</li>
+      <li>北京大学</li>
+      <li>汕头大学</li>
+      <li>郑州大学</li>
+      <li>华南师范大学</li>
+      <li>武汉大学</li>
+      <li>河南师范大学</li>
+    </ol>
+    <p class="collab-paper">
+      完整白皮书见 <a href="https://arxiv.org/abs/2608.29509" target="_blank" rel="noopener">arXiv: 2608.29509</a>。
+    </p>
+  </div>
+</section>
+
+<!-- ================= Logo 下载 ================= -->
+<section class="logo-section" id="logo">
+  <div class="container">
+    <p class="kicker">Logo</p>
+    <h2>下载 Logo</h2>
+    <p class="lead">LUNE 实验标志，适用于报告、论文及网页等场景。</p>
+    <div class="logo-grid">
+      <div class="logo-card">
+        <img src="assets/lune-stacked-800.png" alt="LUNE 纵向标志">
+        <p>纵向（蓝色）</p>
+        <a href="assets/lune-stacked-800.png" download>PNG</a>
+      </div>
+      <div class="logo-card">
+        <img src="assets/lune-horizontal-800.png" alt="LUNE 横向标志">
+        <p>横向（蓝色）</p>
+        <a href="assets/lune-horizontal-800.png" download>PNG</a>
+      </div>
+      <div class="logo-card">
+        <img src="assets/lune-icon-512.png" alt="LUNE 图标" style="max-height:60px">
+        <p>图标（蓝色）</p>
+        <a href="assets/lune-icon-512.png" download>PNG</a>
+      </div>
+      <div class="logo-card">
+        <img src="assets/lune-icon.svg" alt="LUNE 图标 SVG" style="max-height:60px">
+        <p>图标（SVG）</p>
+        <a href="assets/lune-icon.svg" download>SVG</a>
+      </div>
+    </div>
+  </div>
+</section>
+
+<footer class="site-footer">
+  <div class="container footer-wrap">
+    <img src="assets/lune-horizontal-800.png" alt="LUNE" class="footer-logo">
+    <p>© 2026 LUNE 合作组 · <a href="https://hiaf.imp.cas.cn/" target="_blank" rel="noopener">HIAF</a> 精确缪子散射实验</p>
+  </div>
+</footer>
+
+<script src="script.js"></script>
+</body>
+</html>

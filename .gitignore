@@ -1,0 +1,22 @@
+# PDFs
+*.pdf
+
+# Whitepaper figure extractions (root-level only, not assets/figs/)
+/figs/
+
+# Screenshots
+shots/
+
+# Node.js
+node_modules/
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Editor files
+*.swp
+*.swo
+*~
+.vscode/
+.idea/
